@@ -1,0 +1,37 @@
+{
+    "name": "@shah/tsn-content-classification-html-anchors",
+    "version": "0.6.0",
+    "description": "Content classifiers",
+    "main": "dist/html-anchor-text-classification.js",
+    "types": "dist/html-anchor-text-classification.d.ts",
+    "typings": "dist/html-anchor-text-classification",
+    "scripts": {
+        "start": "ts-node conthtml-anchor-text-classifier.ts",
+        "prepublishOnly": "rm -rf dist && tsc --project tsconfig.json",
+        "build": "tsc --project tsconfig.json",
+        "test": "alsatian './**/*.spec.ts'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shah/tsn-content-classification-html-anchors.git"
+    },
+    "keywords": [
+        "email",
+        "newsletters"
+    ],
+    "author": "Shahid N. Shah",
+    "license": "MIT",
+    "dependencies": {
+        "@shah/ts-content-classification": "^0.9.0"
+    },
+    "bugs": {
+        "url": "https://github.com/shah/tsn-content-classification-html-anchors/issues"
+    },
+    "homepage": "https://github.com/shah/tsn-content-classification-html-anchors",
+    "devDependencies": {
+        "@types/node": "^14.0.26",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.7",
+        "alsatian": "^3.2.1"
+    }
+}
