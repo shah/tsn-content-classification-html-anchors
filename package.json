@@ -1,6 +1,6 @@
 {
     "name": "@shah/tsn-content-classification-html-anchors",
-    "version": "0.6.1",
+    "version": "0.6.2",
     "description": "Content classifiers",
     "main": "dist/html-anchor-text-classification.js",
     "types": "dist/html-anchor-text-classification.d.ts",
